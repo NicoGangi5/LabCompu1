@@ -7,6 +7,7 @@
 #ifndef Autito_h
 #define Autito_h
 
+
 #include <Arduino.h>
 
 class Autito
@@ -18,7 +19,7 @@ public:
 	void Apagar ();
 	void Derecha (int Angulo);
 	void Izquierda (int Angulo);
-	void Distancia (); 
+	float Distancia (); 
 
 private:
 	int _Speed;
